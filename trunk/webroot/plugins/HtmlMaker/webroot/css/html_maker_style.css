@@ -1,0 +1,10 @@
+#simplemodal-container {
+    background-color:#fff;
+    border:8px solid #444;
+    padding:12px;
+}
+#loading{
+	width:32px;
+	height:32px;
+	background:url(../img/loading.gif);
+}

@@ -1,0 +1,90 @@
+* { margin: 0; padding: 0; }
+
+body {
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+}
+ul {
+	float: left;
+	padding:0px;
+}
+a {
+	color:#0066cc;	
+}
+a:link, a:visited {
+		color:#0066cc;
+}
+ul li {
+        list-style-type:none;
+        display:inline;
+	padding:3px 20px 3px 20px;
+}
+form {
+	margin-left: 8px;
+	padding: 16px 16px 40px 16px;
+	font-weight: bold;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+form .forgetmenot { font-weight: normal; float: left; margin-bottom: 0;}
+
+#login form .submit input {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+	padding: 3px 5px;
+	border: none;
+	font-size: 13px;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: default;
+	text-decoration: none;
+	margin-top: -6px;
+}
+
+#loginsubmit { float: right; }
+
+form p { margin-bottom: 24px; }
+
+h1 {
+	background: url(../img/logo_login.gif) no-repeat;
+	width: 124px;
+	height: 95px;
+	text-indent: -9999px;
+	overflow: hidden;
+	padding-bottom: 15px;
+	display: block;
+	margin-left: 80px;
+}
+
+
+#login { width: 292px; margin: 7em auto; }
+
+.errormsg, .message {
+	margin: 0 0 16px 8px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 12px;
+}
+
+.errormsg {
+	background-color: #ffebe8;
+	border-color: #c00;
+}
+.message {
+	background-color: #ffffe0;
+	border-color: #e6db55;
+}
+#user_pass, #user_login, #user_email, #password, #re_password {
+	font-size: 20px;
+	width: 97%;
+	padding: 3px;
+	margin-right: 6px;
+}
+.foot {
+	text-align:center;
+}

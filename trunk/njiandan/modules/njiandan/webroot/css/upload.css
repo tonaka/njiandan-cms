@@ -1,0 +1,375 @@
+div#media_window_top_header {
+    background-color: #000;
+}
+
+div#media_window_top_header h1 {
+    float:left;
+}
+
+div#media_window_top_header a {
+    float: right;
+}
+
+
+.modal-dialog-title-text {
+    float:left;
+}
+
+
+.modal-dialog-title-close {
+    float: right;
+/*    background-image: url('../img/close.gif'); */
+    width: 30px;
+}
+
+.InsertImageUpload {
+    float:left;
+    margin-top:100px;
+}
+/* jqModal base Styling courtesy of;
+  Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+  the Window's z-index value will be set to 3000 by default (in jqModal.js). You
+  can change this value by either;
+    a) supplying one via CSS
+    b) passing the "zIndex" parameter. E.g.  (window).jqm({zIndex: 500}); */
+
+
+
+
+.jqmOverlay { background-color: #000; }
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+.img_list {
+    width: 500px;
+    height: 50px;
+}
+
+.img_list li {
+}
+
+.img_list li span {
+    margin-right:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#editor_menu, #editor_menu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1.5em;
+	background: white;
+
+	padding: 0;
+	/*
+	border: solid #eda;
+	border-width: 1px 0;
+	*/
+	margin: 0;
+}
+
+#editor_menu a {
+	display: block;
+	width: 10em;
+	w\idth: 6em;
+	color: #000;
+	text-decoration: none;
+	padding: 0.25em 1em;
+        cursor:default;
+}
+
+
+
+#editor_menu li {
+	float: left;
+	padding: 0;
+	width: 4em;
+}
+
+#editor_menu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 14.4em;
+	w\idth: 13.9em;
+	font-weight: normal;
+	border-left: 1px solid #06c;
+	border-right: 1px solid #06c;
+	border-bottom: 1px solid #06c;
+	margin: 0;
+}
+
+#editor_menu li li {
+	padding-right: 1em;
+	width: 13em
+}
+
+#editor_menu li ul a {
+	width: 13em;
+	w\idth: 9em;
+}
+
+#editor_menu li ul ul {
+	margin: -1.75em 0 0 14em;
+}
+
+#editor_menu li:hover ul ul, #editor_menu li:hover ul ul ul, #editor_menu li.sfhover ul ul, #editor_menu li.sfhover ul ul ul {
+	left: -999em;
+}
+
+#editor_menu li:hover ul, #editor_menu li li:hover ul, #editor_menu li li li:hover ul, #editor_menu li.sfhover ul, #editor_menu li li.sfhover ul, #editor_menu li li li.sfhover ul {
+	left: auto;
+}
+
+#editor_menu li:hover, #editor_menu li.sfhover {
+	background: #59d;
+}
+
+
+
+/*dialog*/
+.ui-dialog {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	background: #ffffff url(img/ffffff_40x100_textures_01_flat_0.png) 0 0 repeat-x;
+	color: #222222;
+	border: 4px solid #dddddd;
+	position: relative;
+}
+.ui-resizable-handle {
+	position: absolute;
+	font-size: 0.1px;
+	z-index: 99999;
+}
+.ui-resizable .ui-resizable-handle {
+	display: block; 
+}
+body .ui-resizable-disabled .ui-resizable-handle { display: none; } /* use 'body' to make it more specific (css order) */
+body .ui-resizable-autohide .ui-resizable-handle { display: none; } /* use 'body' to make it more specific (css order) */
+.ui-resizable-n { 
+	cursor: n-resize; 
+	height: 7px; 
+	width: 100%; 
+	top: -5px; 
+	left: 0px;  
+}
+.ui-resizable-s { 
+	cursor: s-resize; 
+	height: 7px; 
+	width: 100%; 
+	bottom: -5px; 
+	left: 0px; 
+}
+.ui-resizable-e { 
+	cursor: e-resize; 
+	width: 7px; 
+	right: -5px; 
+	top: 0px; 
+	height: 100%; 
+}
+.ui-resizable-w { 
+	cursor: w-resize; 
+	width: 7px; 
+	left: -5px; 
+	top: 0px; 
+	height: 100%;
+}
+.ui-resizable-se { 
+	cursor: se-resize; 
+	width: 13px; 
+	height: 13px; 
+	right: 0px; 
+	bottom: 0px; 
+	background: url(img/222222_11x11_icon_resize_se.gif) no-repeat 0 0;
+}
+.ui-resizable-sw { 
+	cursor: sw-resize; 
+	width: 9px; 
+	height: 9px; 
+	left: 0px; 
+	bottom: 0px;  
+}
+.ui-resizable-nw { 
+	cursor: nw-resize; 
+	width: 9px; 
+	height: 9px; 
+	left: 0px; 
+	top: 0px; 
+}
+.ui-resizable-ne { 
+	cursor: ne-resize; 
+	width: 9px; 
+	height: 9px; 
+	right: 0px; 
+	top: 0px; 
+}
+.ui-dialog-titlebar {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	padding: .5em 1.5em .5em 0;
+	color: #555555;
+	background: #e6e6e6;
+	border-bottom: 1px solid #d3d3d3;
+	font-size: 1em;
+	font-weight: normal;
+	position: relative;
+	width: 100%;
+}
+
+.ui-dialog-title {
+    padding: 0 1.5em;
+    font-weight: bold;
+}
+
+.ui-dialog-titlebar-close {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	position: absolute;
+	right: 8px;
+	width: 11px;
+	height: 11px;
+	z-index: 100;
+}
+
+.ui-dialog-content {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	color: #222222;
+	padding: 1.5em 1.7em;	
+}
+.ui-dialog-buttonpane {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	border-top: 1px solid #dddddd;
+	background: #ffffff;
+}
+.ui-dialog-buttonpane button {
+	margin: .5em 0 .5em 8px;
+	color: #555555;
+	background: #e6e6e6 url(img/e6e6e6_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+	font-size: 1em;
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	line-height: 1.4em;
+}
+.ui-dialog-buttonpane button:hover {
+	color: #212121;
+	background: #dadada url(img/dadada_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+	border: 1px solid #999999;
+}
+.ui-dialog-buttonpane button:active {
+	color: #222222;
+	background: #ffffff url(img/ffffff_40x100_textures_02_glass_65.png) 0 50% repeat-x;
+	border: 1px solid #dddddd;
+}
+/* This file skins dialog */
+.ui-dialog.ui-draggable .ui-dialog-titlebar,
+.ui-dialog.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+
+#image_upload_dialog {
+    overflow: auto;
+}
+
+#InsertImageType {
+}
+#InsertImageType li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#uploaded_image_list {
+    margin-top:20px;
+    /*
+    border:1px solid #ccc;
+    border-bottom: none;
+    */
+    width: 280px;
+}
+
+#uploaded_image_list li {
+    line-height: 36px;
+/*    border-bottom: 1px solid #ccc; */
+    margin:0;
+    padding:0;
+    clear: both;
+}
+
+
+.image_description {
+    padding: 0 2em 0.5em 1em;
+}
+
+.image_action_show {
+    margin-right: 10px;
+    width: 50px;
+}
+
+.image_action_show {
+	display: block;
+	line-height: 36px;
+	float: right;
+	margin-right: 20px;
+}
+
+.filename {
+	float: left;
+	line-height: 36px;
+	margin-left: 10px;
+	overflow: hidden;
+	max-width: 430px;
+}
+
+.pinkynail {
+	float: left;
+	margin: 2px;
+	height: 32px;
+	max-width: 40px;
+	max-height: 40px;
+}

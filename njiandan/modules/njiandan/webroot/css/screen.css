@@ -1,0 +1,37 @@
+h1, h2 { font-family: 'trebuchet ms', verdana, arial; padding: 10px; margin: 0 }
+h1 { font-size: large }
+
+#banner { padding: 15px; background-color: #06b; color: white; font-size: large; border-bottom: 1px solid #ccc;
+    background: url(bg.gif) repeat-x; text-align: center }
+#banner a { color: white; }
+
+#main { padding: 1em; }
+
+a img { border: none; }
+
+.diagram_action span{
+    margin-left:10px;
+}
+
+#browser li .item,#browser li .page, #browser li .url, #browser li .list{
+/*	background:#0066cc;
+*/	position:relative;
+	height:20px;
+	line-height:20px;
+
+}
+#browser li .diagram_action{
+/*	background:#0066cc;*/
+	_position:absolute;
+	+position:absolute;
+	right:50px;
+	float:right;
+	_float:none;
+	+float:none;
+    padding-right:50px;
+    display:inline-block;
+}
+#browser li .over{
+	background:#EAF3FD;
+}
+
